@@ -1,2 +1,32 @@
 <h1>tESTING AUTOMATION TOOL</h1>
+<form>
+URL <input type="text" name="input_url" id ="url"><br>
+<button type="button" onclick="show_iframe()">Go</button>
 
+
+</form>
+<form>
+Tag<input type="text" name="input_tag" id="tag">
+<button type="button" onlick="search()">Search</button>
+</form>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+function search(){
+}
+
+  })
+})
+</script>
+
+
+<iframe id="showskill" scrolling="yes" height="350" width ="350" src=""></iframe>
+
+<script>
+function show_iframe(){
+	var txtbox=document.getElementById("url");
+	var value=txtbox.value;
+    document.getElementById("showskill").src =
+              value
+			  }
+</script>
