@@ -151,7 +151,7 @@
 					
 					<textarea  class="box" id="gen_code" cols="50" rows="10"></textarea>
 				</form>
-				<form action="/welcome/ui" >
+				<form action="/final/comp" >
 
 <input type="submit" id="save" name="save" value="Execute Code">
 </form>
@@ -189,6 +189,7 @@ $("#search").click(function(){
 	var txtbox=document.getElementById("tag");
 	var value=txtbox.value;
 	all = $( "div#external" ).find(value);
+	
 	$( "div#external" ).find( value ).css( {"color":"red","border":"2px solid red"} );
 	
 for(i=0;i<all.length-1;i++){
